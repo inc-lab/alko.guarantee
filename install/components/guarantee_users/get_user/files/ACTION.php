@@ -1,0 +1,1 @@
+<p class="action">[[action]]</p>

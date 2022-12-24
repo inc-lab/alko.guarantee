@@ -1,0 +1,133 @@
+form[action="/guarantee/check.php"] {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+.red.def{
+	display: block;
+    text-decoration: underline;
+    font-size: 12px;
+}
+p.action {
+    color: rgb(85,85,85);
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    border: 1px solid red;
+    width: max-content;
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+.no_check {
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+a.is_check {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    top: 25px;
+    border-bottom: 1px solid;
+    width: max-content;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: red;
+}
+img.img-check {
+    width: 250px;
+    margin-top: 12px;
+}
+.checkoutAlko p.code_no {
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.def ~ input{
+	border:1px solid red !important;
+}
+.red{
+	color:red;
+}
+.checkoutAlko p.red {
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+}
+.ajaxAlko {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    height: 100%;
+    border: 1px solid #eee;
+	padding:12px;
+}
+
+.checkoutAlko {
+    font-size: 0px;
+}
+
+label.nameFormAlko {
+    width: 50%;
+}
+
+form[action="/guarantee/check.php"] input {
+    width: 37%;
+    margin-top: 12px;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    background: #f8f8f8;
+    height: 35px;
+    padding-left: 12px;
+}
+
+input.registrAlko {
+    border: 1px solid #dc2f2f !important;
+    background: #dc2f2f !important;
+    border-radius: 3px;
+    height: 58px !important;
+    color: #ffffff;
+}
+h3.h3alko {
+    font-size: 1.75rem;
+}
+
+p.s16 {
+    font-size: 16px;
+}
+.ajaxAlko img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.ajaxAlko a {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:1000px) and (min-width:200px) {
+
+	form[action="/guarantee/check.php"] input {
+		width: 100%;
+	}
+	label.nameFormAlko {
+		width: 100%;
+	}
+	form[action="/guarantee/check.php"] {
+		width: 100%;
+	}
+	.ajaxAlko {
+		width: 100%;
+		margin-top: 20px;
+	}
+	span.red.def,p.s16,.checkoutAlko {
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,1 @@
+<span class="dateup"> Дата обновления: [[value]]</span>

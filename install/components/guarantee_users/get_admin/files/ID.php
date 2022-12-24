@@ -1,0 +1,1 @@
+<span class="list">Запись [[value]]</span><hr class="hr"><input type="hidden" name="[[key]]" class="isdinput" value="[[value]]">

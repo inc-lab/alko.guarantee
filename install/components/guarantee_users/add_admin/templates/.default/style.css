@@ -1,0 +1,106 @@
+.adm-filter-content{
+	width:550px;
+}
+input.registrAlko {
+    display: block;
+    position: relative;
+    left: 20px;
+}
+form.filters input,form.filters label {
+    width: 200px;
+    display: block;
+    margin-top: 12px;
+}
+.item-list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 7px;
+    position: relative;
+}
+
+label.nameFormAlko {
+    display: block;
+}
+form.filters {
+    background: #eee;
+    padding: 12px;
+    width: max-content;
+    background: url(/bitrix/panel/main/images/filter-bg.gif) repeat;
+    border-radius: 0 5px 5px 5px;
+    border-bottom: 1px solid #a0abb0;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    margin-top: 12px;
+}
+.popap-create{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    height: max-content;
+    width: 550px;
+	display:none;
+    z-index: 500;
+}
+p.close-but {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: red;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50px;
+    transform: rotate(45deg);
+    display: block;
+    z-index: 500;
+    right: -20px;
+    top: -50px;
+    cursor: pointer;
+    padding-left: 2px;
+}
+.list-get {
+
+}
+div.list-get input.isdinput.newformat,div.list-get select.isdinput {
+    background: #ebebeb;
+    border: 1px solid;
+    border-color: #c4ced2 #dce7ed #dce7ed;
+    height: 35px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 12px;
+    border-radius: 5px !important;
+    vertical-align: top;
+}
+span.dateup {
+    position: absolute;
+	left: 20px;
+    top: 55px;
+    color: #eee;
+}
+.img-list{
+    display: block;
+    width: 250px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.hr{
+	margin-bottom: 28px;
+}
+.up-but {
+    margin-top: 20px;
+}
+.isdiscount form {
+    position: relative;
+	margin-top:7px;
+    background: url(/bitrix/panel/main/images/header-big.png);
+    padding: 20px;
+    margin-top: 12px;
+    border-radius: 5px;
+    color: #fff;
+
+}

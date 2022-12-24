@@ -1,0 +1,101 @@
+form.guarantee {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+.red.def{
+	display: block;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.custom-alko{
+font-size:16px;
+}
+.checkoutAlko p.code_no {
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.def ~ input{
+	border:1px solid red !important;
+}
+.red{
+	color:red;
+}
+.checkoutAlko p.red {
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.ajaxAlko {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    height: 100%;
+    border: 1px solid #eee;
+	padding:12px;
+}
+
+.checkoutAlko {
+    font-size: 0px;
+}
+
+label.nameFormAlko {
+    width: 50%;
+}
+
+form.guarantee input {
+    width: 37%;
+    margin-top: 12px;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    background: #f8f8f8;
+    height: 35px;
+    padding-left: 12px;
+}
+
+input.registrAlko {
+    border: 1px solid #dc2f2f !important;
+    background: #dc2f2f !important;
+    border-radius: 3px;
+    height: 58px !important;
+    color: #ffffff;
+}
+h3.h3alko {
+    font-size: 1.75rem;
+}
+
+p.s16 {
+    font-size: 16px;
+}
+.ajaxAlko img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.ajaxAlko a {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:1000px) and (min-width:200px) {
+
+	form.guarantee input {
+		width: 100%;
+	}
+	label.nameFormAlko {
+		width: 100%;
+	}
+	form.guarantee {
+		width: 100%;
+	}
+	.ajaxAlko {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
